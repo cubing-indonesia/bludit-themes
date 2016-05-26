@@ -1,0 +1,10 @@
+{
+    "author": "Nusantara Speedcubing Association",
+    "email": "info@nsa.or.id",
+    "website": "nsa.or.id",
+    "version": "1.0",
+    "releaseDate": "2016-05-23",
+    "license": "MIT",
+    "requires": "Bludit v1.0",
+    "notes": "Rubik's Cube Competition Orange Theme"
+}

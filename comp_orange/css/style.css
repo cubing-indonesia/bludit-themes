@@ -1,0 +1,345 @@
+@import url("uikit.scrollspy.css");
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic,900,900italic");
+
+body
+{
+	font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	line-height: 32px;
+	font-weight: 300;
+	color: #999;
+	background: #FFF;
+}
+
+a
+{
+	color: #444;
+	text-decoration: none;
+}
+
+.has-error .checkbox, .has-error .checkbox-inline, .has-error .control-label, .has-error .help-block, .has-error .radio, .has-error .radio-inline, .has-error.checkbox label, .has-error.checkbox-inline label, .has-error.radio label, .has-error.radio-inline label {
+	color: #ec2a26;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+a:hover
+{
+	color: #444;
+}
+
+p
+{
+	margin: 0 0 20px 0;
+}
+
+strong
+{
+	font-weight: 600;
+}
+
+em
+{
+	font-style: italic;
+}
+
+h1, h2, h3
+{
+	font-size: 60px;
+	line-height: 60px;
+	margin: 0 0 20px 0;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+h2
+{
+	font-size: 38px;
+	line-height: 38px;
+}
+
+h3
+{
+	font-size: 32px;
+	line-height: 32px;
+}
+
+.arrow-separator
+{
+	position: relative;
+}
+
+.arrow-separator:after
+{
+	top: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-width: 12px;
+	left: 50%;
+	margin-left: -12px;
+	z-index: 11;
+}
+
+.arrow-white:after
+{
+	border-color: #FFF rgba(255,255,255,0) rgba(255,255,255,0) rgba(255,255,255,0); /** Using RGB to remove dark line in Firefox **/
+}
+
+.arrow-theme:after
+{
+	border-color: #16A085 rgba(22,160,133,0) rgba(22,160,133,0) rgba(22,160,133,0);
+}
+
+.arrow-themelight:after
+{
+	border-color: #1ABC9C rgba(26,188,156,0) rgba(26,188,156,0) rgba(26,188,156,0);
+}
+
+.arrow-themeorange:after
+{
+	border-color: #f88017 rgba(248,128,23,0) rgba(248,128,23,0) rgba(248,128,23,0);
+}
+
+.arrow-grey:after
+{
+	border-color: #EEE rgba(238,238,238,0) rgba(238,238,238,0) rgba(238,238,238,0);
+}
+
+#footer a
+{
+	font-size: 36px;
+	color: #999;
+}
+
+#footer a:not(:last-child) {
+	margin-right: 10px;
+}
+
+#footer a:hover
+{
+	color: #1ABC9C;
+}
+
+#top {
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.img-center {
+	margin: 0 auto;
+}
+
+.img-left {
+	margin-right: auto;
+}
+
+.img-right {
+	margin-left: auto;
+}
+
+.tbl-res {
+	overflow-x: auto;
+}
+
+#top h1
+{
+	padding: 6px 0 10px 0;
+	margin-bottom: 0;
+	color: #444;
+	font-weight: 400;
+}
+
+#top h1 span
+{
+	font-size: 70px;
+	line-height: 70px;
+	font-weight: 300;
+}
+
+.navbar {
+	border-radius: 0;
+	background-color: #444;
+	border-color: transparent;
+	margin-bottom: 0;
+	min-height: 0;
+}
+
+.navbar-nav li a {
+	line-height: 40px;
+	color: #fff !important;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+.navbar-nav li.active a {
+	background-color: #000 !important;
+}
+
+.navbar-nav li a:hover {
+	background-color: #000 !important;
+}
+
+.navbar-collapse {
+	border-top: 0;
+}
+
+.navbar .navbar-nav {
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+	text-align: center;
+}
+
+#div-content {
+	background: #f88017;
+}
+
+#content {
+	color: #fff;
+	padding: 60px;
+	word-break: break-word;
+}
+
+.container-full {
+	margin: 0 auto;
+	width: 100%;
+}
+
+#footer {
+	padding: 60px;
+}
+
+.navbar-toggle {
+	float: none;
+	margin: 0;
+	border-radius: 0;
+}
+
+#nav-button {
+	width: 100%;
+	height: 60px;
+	border: 0;
+	color: #fff;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+.navbar-toggle:link {
+	background: transparent !important;
+}
+
+.navbar-toggle:hover, .navbar-toggle:focus {
+	background: #000 !important;
+}
+
+#head-navbar {
+	text-align: center;
+	padding: 20px;
+	line-height: 40px;
+	color: #444 !important;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 40px;
+}
+
+#head-navbar #small-tag {
+	font-size: 20px;
+	font-weight: 300;
+	display: block;
+}
+
+#head-navbar img {
+	vertical-align: middle;
+	height: 100px;
+}
+
+#social {
+	margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px)
+{
+
+	body
+	{
+		font-size: 23px;
+		line-height: 29px;
+	}
+
+	#footer a
+	{
+		font-size: 32px;
+	}
+
+	#content
+	{
+		padding: 30px;
+	}
+}
+
+@media screen and (max-width: 480px)
+{	
+
+	body
+	{
+		font-size: 21px;
+		line-height: 27px;
+	}
+
+	#top h1
+	{
+		line-height: 30px !important;
+	}
+
+	#top h1 span
+	{
+		font-size: 30px !important;
+		line-height: 35px !important;
+	}
+
+	h2
+	{
+		font-size: 19px;
+		line-height: 19px;
+	}
+
+	#head-navbar img
+	{
+		margin: 0 auto;
+		display: block;
+	}
+
+	#head-navbar
+	{
+		font-size: 20px;
+		line-height: 20px;	
+	}
+
+	#head-navbar #small-tag
+	{
+		font-size: 10px;
+	}
+
+	#content
+	{
+		padding: 10px;
+	}
+
+	#socialmedia ul li
+	{
+		//	margin: 0 5px;
+	}
+
+	#footer a
+	{
+		font-size: 28px;
+	}
+}
